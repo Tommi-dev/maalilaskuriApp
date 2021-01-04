@@ -1,0 +1,64 @@
+{
+    "apartments": [
+        {
+            "name": "A1",
+            "rooms": [
+                {
+                    "name": "Makuuhuone",
+                    "totalPaintableArea": "45"
+                },
+                {
+                    "name": "Olohuone",
+                    "totalPaintableArea": "55"
+                }
+            ]
+        },
+        {
+            "name": "A2",
+            "rooms": [
+                {
+                    "name": "Makuuhuone",
+                    "totalPaintableArea": "35"
+                },
+                {
+                    "name": "Makuuhuone",
+                    "totalPaintableArea": "45"
+                },
+                {
+                    "name": "Olohuone",
+                    "totalPaintableArea": "55"
+                }
+            ]
+        },
+        {
+            "name": "B1",
+            "rooms": [
+                {
+                    "name": "Makuuhuone",
+                    "totalPaintableArea": "35"
+                },
+                {
+                    "name": "Olohuone",
+                    "totalPaintableArea": "50"
+                }
+            ] 
+        },
+        {
+            "name": "B2",
+            "rooms": [
+                {
+                    "name": "Makuuhuone",
+                    "totalPaintableArea": "30"
+                },
+                {
+                    "name": "Makuuhuone",
+                    "totalPaintableArea": "40"
+                },
+                {
+                    "name": "Olohuone",
+                    "totalPaintableArea": "65"
+                }
+            ]  
+        }
+    ]
+}
