@@ -6,25 +6,25 @@ Toimeksiantaja on taloyhtiö, joka haluaa sovelluksen, jolla se pystyy laskemaan
 Sovelluksen tulisi kysyä käyttäjältä maalin perustiedot ja tulostaa sen jälkeen web-sivulle koko taloyhtiölle ja kullekin asunnolle maalintarpeen litroina ja tämän litramäärän hinnan euroina kahden desimaalin tarkkuudella. Jokaiselle asunnolle on myös laskettava maalattavien pintojen kokonaispinta-ala, joka tulostetaan käyttäjälle.
 
 ### Maalin perustiedot
--Maalin hinta €/l
--Maalin riittoisuus m2/l
--Maalauskertojen määrä
+- Maalin hinta €/l
+- Maalin riittoisuus m2/l
+- Maalauskertojen määrä
 
 ### Taloyhtiö koostuu seuraavista asunnoista
-A1
-Makuuhuone, jossa maalattava pinta-ala 45m2.
-Olohuone, jossa maalattava pinta-ala 55m2.
-
-A2
-Makuuhuone, jossa maalattava pinta-ala 35m2.
-Makuuhuone, jossa maalattava pinta-ala 45m2.
-Olohuone, jossa maalattava pinta-ala 55m2.
-
-B1
-Makuuhuone, jossa maalattava pinta-ala 35m2.
-Olohuone, jossa maalattava pinta-ala 50m2.
-
-B2
-Makuuhuone, jossa maalattava pinta-ala 30m2.
-Makuuhuone, jossa maalattava pinta-ala 40m2.
-Olohuone, jossa maalattava pinta-ala 65m2.
+A1  
+Makuuhuone, jossa maalattava pinta-ala 45m2.  
+Olohuone, jossa maalattava pinta-ala 55m2.  
+  
+A2  
+Makuuhuone, jossa maalattava pinta-ala 35m2.  
+Makuuhuone, jossa maalattava pinta-ala 45m2.  
+Olohuone, jossa maalattava pinta-ala 55m2.  
+  
+B1  
+Makuuhuone, jossa maalattava pinta-ala 35m2.  
+Olohuone, jossa maalattava pinta-ala 50m2.  
+  
+B2  
+Makuuhuone, jossa maalattava pinta-ala 30m2.  
+Makuuhuone, jossa maalattava pinta-ala 40m2.  
+Olohuone, jossa maalattava pinta-ala 65m2.  
