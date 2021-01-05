@@ -1,10 +1,14 @@
 import React from 'react'
-import { useDispatch } from 'react-redux'
+import { useDispatch, useSelector } from 'react-redux'
 import Apartments from './Apartments'
 import { resetBasics } from '../../reducers/paintFormReducer'
+import { hcPaintNeeds, hcTotalCost } from '../Calculator'
 
 const Dashboard = () => {
     const dispatch = useDispatch()
+
+    const apartments = useSelector(state => state.apartments)
+    const paintBasics = useSelector(state => state.paintForm)
 
     return (
         <div>
@@ -13,11 +17,11 @@ const Dashboard = () => {
                 <div className='wrap-container' >
                     <div className='housing-cooperative-result' >
                         <h3>Maalin tarve litroina</h3>
-                        <p></p>
+                        <p> {hcPaintNeeds(apartments, paintBasics)} </p>
                     </div>
                     <div className='housing-cooperative-result' >
                         <h3>Kokonaiskustannukset euroina</h3>
-                        <p></p>
+                        <p> {hcTotalCost(apartments, paintBasics)} </p>
                     </div>
                 </div>
             </div>
