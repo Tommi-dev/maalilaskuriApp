@@ -28,3 +28,25 @@ B2
 Makuuhuone, jossa maalattava pinta-ala 30m2.  
 Makuuhuone, jossa maalattava pinta-ala 40m2.  
 Olohuone, jossa maalattava pinta-ala 65m2.  
+  
+
+## Sovelluksen käynnistäminen
+  
+Asenna riippuvuudet komennolla
+```
+npm install
+```
+  
+
+Käynnistä JSON serveri komennolla
+```
+npm run server
+```
+Serveri käynnistyy porttiin 3001  
+  
+
+Käynnistä sovellus paikallisesti komennolla
+```
+npm start
+```
+Sovellus käynnistyy http://localhost:3000
