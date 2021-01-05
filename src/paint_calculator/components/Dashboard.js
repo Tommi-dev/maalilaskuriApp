@@ -1,7 +1,11 @@
 import React from 'react'
+import { useDispatch } from 'react-redux'
 import Apartments from './Apartments'
+import { resetBasics } from '../../reducers/paintFormReducer'
 
 const Dashboard = () => {
+    const dispatch = useDispatch()
+
     return (
         <div>
             <div className='housing-cooperative' >
@@ -26,7 +30,7 @@ const Dashboard = () => {
             </div>
 
             <div className='reset-button-container' >
-                <button>Nollaa</button>
+                <button onClick={() => dispatch(resetBasics())} >Nollaa</button>
             </div>
         </div>
     )

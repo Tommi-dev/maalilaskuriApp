@@ -1,12 +1,32 @@
 import React from 'react'
+import { useDispatch } from 'react-redux'
+import { addPaintBasics } from '../../reducers/paintFormReducer'
 
 const PaintForm = () => {
+    const dispatch = useDispatch()
+
+    const createBasics = (event) => {
+        event.preventDefault()
+
+        const paintBasics = {
+            price: Number(event.target.price.value),
+            spreadingRate: Number(event.target.spreadingRate.value),
+            paintLayers: Number(event.target.paintLayers.value)
+        }
+
+        event.target.price.value = ''
+        event.target.spreadingRate.value = ''
+        event.target.paintLayers.value = ''
+
+        dispatch(addPaintBasics(paintBasics))
+    }
+
     return (
         <div>
             <label>
                 <h1>Maalin perustiedot</h1>
             </label>
-            <form>
+            <form onSubmit={createBasics} >
                 <input
                     name='price'
                     type='number'
