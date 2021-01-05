@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap');
+
+/* ---- TOPBAR ---- */
+.topbar-container {
+    background-color: rgb(255, 223, 79);
+}
+
+.topbar-container h1 {
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Nunito', sans-serif;
+    color: rgb(56, 56, 56);
+}
+
+/* ---- PAINTFORM ---- */
+.paintForm-container {
+    
+}
+.paintForm-container h2 {
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+}
+
+.paintForm-form {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.paintForm-form input {
+    box-sizing: border-box;
+    padding: 8px;
+    text-align: center;
+    width: 200px;
+    margin: 10px;
+    border-radius: 5px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.paintForm-form button {
+    padding: 8px;
+    text-align: center;
+    width: 200px;
+    margin: 10px;
+    background-color: rgb(231, 87, 87);
+    color: white;
+    border-radius: 5px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+}
+.paintForm-form button:hover {
+    background-color: rgb(228, 61, 61);
+}
+
+/* ---- DASHBOARD ---- */
+.housing-cooperative {
+    
+}
+
+.housing-cooperative h2 {
+    margin: 0;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+}
+
+.wrap-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+
+.housing-cooperative-result {
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+}
+
+.housing-cooperative-result h3 {
+    font-weight: 400;
+}
+
+.housing-cooperative-result p {
+    font-weight: 700;
+    color: rgb(255, 45, 45);
+}
+
+.apartments h2 {
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+}
+
+.apartment-container {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
+
+.apartment-container h4 {
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+
+.apartment-result {
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+}
+
+.apartment-result h5 {
+    font-weight: 400;
+}
+
+.reset-button-container button {
+    margin-top: 50px;
+    padding: 20px;
+    width: 100%;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    background-color: rgb(231, 87, 87);
+    color: white;
+}
+.reset-button-container button:hover {
+    background-color: rgb(228, 61, 61);
+    color: white;
+}

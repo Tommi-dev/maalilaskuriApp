@@ -1,7 +1,9 @@
 import React, { useEffect } from 'react'
 import { useDispatch } from 'react-redux'
+import TopBar from './components/TopBar'
 import PaintCalculator from './paint_calculator/components/PaintCalculator'
 import { initializeApartments } from './reducers/apartmentReducer'
+import './App.css'
 
 const App = () => {
 
@@ -13,6 +15,7 @@ const App = () => {
 
     return (
       <div>
+        <TopBar />
         <PaintCalculator />
       </div>
     )

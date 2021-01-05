@@ -22,11 +22,11 @@ const PaintForm = () => {
     }
 
     return (
-        <div>
+        <div className='paintForm-container' >
             <label>
-                <h1>Maalin perustiedot</h1>
+                <h2>Maalin perustiedot</h2>
             </label>
-            <form onSubmit={createBasics} >
+            <form className='paintForm-form' onSubmit={createBasics} >
                 <input
                     name='price'
                     type='number'
