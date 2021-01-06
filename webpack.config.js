@@ -10,6 +10,7 @@ const config = {
         contentBase: path.resolve(__dirname, 'dist'),
         compress: true,
         port: 3000,
+        open: true,
     },
     devtool: 'source-map',
     module: {
@@ -19,6 +20,7 @@ const config = {
                 loader: 'babel-loader',
                 options: {
                     presets: ['@babel/preset-env', '@babel/preset-react'],
+                    plugins: ["@babel/plugin-syntax-dynamic-import"],
                 }
             },
             {
